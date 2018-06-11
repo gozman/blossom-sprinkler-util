@@ -1,0 +1,24 @@
+{
+  "name": "myblossom",
+  "version": "0.1.0",
+  "description": "A command line utility for issuing simple commands to the Blossom sprinkler controller. Based on a reverse-engineered private API",
+  "main": "myblossom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gozman/blossom-sprinkler-util.git"
+  },
+  "author": "Mike Gozzo <mgozzo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gozman/blossom-sprinkler-util/issues"
+  },
+  "homepage": "https://github.com/gozman/blossom-sprinkler-util#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "dotenv": "^6.0.0",
+    "superagent": "^3.8.3"
+  }
+}
