@@ -10,7 +10,8 @@ CONTROLLER_ID
 
 Command line arguments:
 
-`$ node ./myblossom.js --help
+```
+$ node ./myblossom.js --help
 
   Usage: myblossom [options]
 
@@ -20,4 +21,5 @@ Command line arguments:
     -v, --valve [number]  Valve number to switch on
     -t, --time [seconds]  Time to run sprinkler in seconds
     -s, --stop            Stop all watering
-    -h, --help            output usage information`
+    -h, --help            output usage information
+```
