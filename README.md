@@ -4,9 +4,9 @@ A command line utility for issuing simple commands to the Blossom sprinkler cont
 ## How to use
 Set the following variables in your environment (or use a .env file)
 
-BLOSSOM_USER
-BLOSSOM_PASSWORD
-CONTROLLER_ID
+ * BLOSSOM_USER
+ * BLOSSOM_PASSWORD
+ * CONTROLLER_ID 
 
 ### Command line arguments
 
