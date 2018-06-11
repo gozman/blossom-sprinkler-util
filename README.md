@@ -8,7 +8,7 @@ BLOSSOM_USER
 BLOSSOM_PASSWORD
 CONTROLLER_ID
 
-Command line arguments:
+### Command line arguments
 
 ```
 $ node ./myblossom.js --help
@@ -22,4 +22,11 @@ $ node ./myblossom.js --help
     -t, --time [seconds]  Time to run sprinkler in seconds
     -s, --stop            Stop all watering
     -h, --help            output usage information
+```
+
+### Usage example
+
+```
+$ node ./myblossom.js -v 3 -t 20
+Sent command to start Street (3)  for 20 seconds
 ```
